@@ -2,7 +2,7 @@
 int main()
 {
     int low, high, i, flag, temp;
-    printf("Enter two numbers(intevals): ");
+    
     scanf("%d %d", &low, &high);
 
     if (low > high) {
@@ -10,7 +10,7 @@ int main()
         low = high;
         high = temp;
     }
-    printf("Prime numbers between %d and %d are: ", low, high);
+  
     while (low < high)
     {
         flag = 0;
