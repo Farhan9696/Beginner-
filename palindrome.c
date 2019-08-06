@@ -14,9 +14,9 @@ int main()
     }
  
     if (originalInteger == reversedInteger)
-        printf("Yes");
+        printf("yes");
     else
-        printf("No");
+        printf("no");
     
     return 0;
 }
