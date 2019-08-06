@@ -14,7 +14,7 @@ int main(void)
         i++;
     }
     
-    printf("%d^%d = %d", base, exponent, result);
+    printf("%d", result);
     
     return 0; 
 }
