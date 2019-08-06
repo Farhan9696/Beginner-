@@ -1,14 +1,10 @@
-#include<stdio.h> 
+#include<stdio.h> // include stdio.h library
  
 int main(void)
 {       
     int base, exponent, result = 1;
     
-    printf("Enter base: ");
-    scanf("%d", &base);
-    
-    printf("Enter exponent: ");
-    scanf("%d", &exponent);
+    scanf("%d%d", &base,&exponent);
     
     int i = 1;
     
