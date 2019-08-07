@@ -15,8 +15,8 @@ flag=flag+1;
 }
 }
 if(flag==0)
-printf("yes");
-else
 printf("no");
+else
+printf("yes");
 
 }
